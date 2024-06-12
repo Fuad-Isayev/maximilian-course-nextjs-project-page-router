@@ -51,6 +51,7 @@ export async function getStaticProps(context) {
                 ...selectedMeetup,
                 _id: null,
             }
-        }
+        },
+        revalidate: 1
     }
 }
